@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+}
+
 
 .meals {
     max-width: 60rem;
@@ -10,6 +15,20 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .mealsLoading {
+    font-size: 1.5rem;
+    font-weight: 500 ;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .mealsError {
+    font-size: 1.5rem;
+    font-weight: 500 ;
+    text-align: center;
+    color: whitesmoke;
   }
   
   @keyframes meals-appear {
